@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: false})); //form data post request hishebe
 );*/
 // from any origin the server is accessable
 app.use(cors({
-    origin: ["http://localhost:3000","https://mern-taskScheduler-app.onrender.com"]
+    origin: ["http://localhost:3000","https://mern-taskscheduler-app.onrender.com/"]
 }));  //should be before the routes
 
 
